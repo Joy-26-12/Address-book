@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #fffafc;
+    color: #5b5b5b;
+  }
+  
+  header {
+    background: url('https://images.unsplash.com/photo-1526045612212-70caf35c14df') no-repeat center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+  
+  header a {
+    background: #f4c2c2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  nav a {
+    color: #5b5b5b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .package {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .package h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+  }
+  
+  .package ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .package ul li {
+    margin: 8px 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form button {
+    background: #f4c2c2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 40px;
+  }
+  
+  .socials a {
+    margin: 0 10px;
+    color: #5b5b5b;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
